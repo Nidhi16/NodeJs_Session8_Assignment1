@@ -1,0 +1,27 @@
+{
+  "name": "testing_underscore",
+  "version": "1.0.0",
+  "description": "This is acadgild assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidhi16/NodeJs_Session8_Assignment1.git"
+  },
+  "keywords": [
+    "underscore",
+    "acadgild",
+    "assignment"
+  ],
+  "author": "Nidhi Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nidhi16/NodeJs_Session8_Assignment1/issues"
+  },
+  "homepage": "https://github.com/Nidhi16/NodeJs_Session8_Assignment1#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
