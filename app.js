@@ -19,9 +19,9 @@ var server = http.createServer(function(request, response) {
     response.write("First Name of the students are: " + _.pluck(students, 'first_name'));
 
     // Using max to find the maximum age among the students object
-    var oldestStudent = _.max(students, function(student){ return student.age; });
-    console.log("Full name of the oldest student is: " + oldestStudent.first_name + " " + oldestStudent.last_name + " and age is : " + oldestStudent.age);
-    response.write("\nFull name of the oldest student is: " + oldestStudent.first_name + " " + oldestStudent.last_name + " and age is : " + oldestStudent.age);
+    var eldestStudent = _.max(students, function(student){ return student.age; });
+    console.log("Full name of the eldest student is: " + eldestStudent.first_name + " " + eldestStudent.last_name + " and age is : " + eldestStudent.age);
+    response.write("\nFull name of the eldest student is: " + eldestStudent.first_name + " " + eldestStudent.last_name + " and age is : " + eldestStudent.age);
 
     // Using min to find the minimum age among the students object
     var youngestStudent = _.min(students, function(student){ return student.age; });
